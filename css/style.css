@@ -1,0 +1,119 @@
+.container {
+    width: min(100%, 1440px);
+    margin: auto;
+  }
+  
+  /* header */
+  header {
+    background-color: #758BFD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 52px 98px;
+  }
+  
+  .header_logo_link {
+    display: inline-flex;
+  }
+  
+  .header_ul {
+    display: flex;
+    column-gap: 50px;
+  }
+  
+  .header_li_link {
+    font-size: 24px;
+    color: #DDEAF8;
+    font-family: Ubuntu;
+    font-weight: 500;
+    line-height: 27.58px;
+  }
+  
+  .active {
+    color: #133B3A;
+  }
+  
+  .header_search_container {
+    width: 222px;
+    height: 56px;
+    padding-right: 8px;
+    border: 3px solid #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  
+  .fa-magnifying-glass {
+    font-size: 32px;
+    color: #FFFFFF;
+  }
+  
+  /* section */
+  .cards_container {
+    width: calc(1244 / 1440 * 100%);
+    margin: 94px auto;
+  }
+  
+  .cards_container_title {
+    color: #27187F;
+    font-family: Ubuntu;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36.77px;
+    margin-bottom: 68px;
+  }
+  
+  .cards_container_contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 51px 22px;
+  }
+  
+  article {
+    background-color: #DDEAF8;
+    padding: 33px 30px;
+    border-radius: 10px;
+  }
+  
+  h4 {
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22.98px;
+    color: #133B3A;
+    margin-top: 33px;
+  }
+  
+  /* footer */
+  footer {
+    background-color: #758BFD;
+    padding: 75px 98px 105px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  h5 {
+    font-family: Century Gothic;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+  }
+  
+  .footer_nav i {
+    font-size: 22px;
+    color: #FFFFFF;
+  }
+  
+  .footer_nav {
+    display: flex;
+    column-gap: 24px;
+  }
+  
+  .footer_right_section {
+    display: flex;
+    column-gap: 11px;
+  }
